@@ -9,4 +9,4 @@ workflows:
     jobs:
       - kubernetes-gke-publish/test:
           context:
-          - dev
+            - dev
